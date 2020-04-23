@@ -31,7 +31,7 @@ void loop(){
   angleX = asin((float)X_Accel/gForce)*180/PI;
   angleY = asin((float)Y_Accel/gForce)*180/PI;
 
-  Serial.print("Roll");                                                    // printing the output values on Arduino Serial Monitor
+  Serial.print("Roll : ");                                                    // printing the output values on Arduino Serial Monitor
   Serial.print(angleX);                                                     
   Serial.print("   Pitch: ");
   Serial.println(angleY);
